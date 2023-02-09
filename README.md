@@ -44,7 +44,7 @@ pip install Quickdata
 from Quickdata import complot
 ```
 
-- `Funcionalidad simple`: Obtener a través de menos de una línea de código una gráfica sin poderar y ponderada de una variable de tu DataFrame (configuración de axes, figure, títulos, labels y efectos visuales automatizados).
+- `Funcionalidad simple`: Obten una gráfica sin poderar y ponderada de una variable de tu DataFrame, sin necesidad de invertir tiempo y líneas de código (configuración de axes, figure, títulos, labels y efectos visuales automatizados).
 
 ```Python
 complot(example,["sexo"])
@@ -54,7 +54,7 @@ complot(example,["sexo"])
 <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4ZWR29W5sV9jkOxcnpZ5HvlIrurQGlfzw-DXUwfPc0zYMyXLB7Tcu3tBS24uFk3zjJAwYVoB1LVBt_iac_AXGvbSooLW95xeTY05HEilgksePItadx3cvXomHBq0esBSHZAeWDfkiKObs_j5ns56kOZDXzWdXgRwlhUuMek4ES3rOb6oInXnktUWo/s16000/complot_s.png">
 </p>
 
-- `Funcionalidad avanzada`: Introduce múltiple variables de tu DataFrame dentro de la función. Cada variable obtendrá dos gráficos (sin ponderar y ponderado). La función múltiple ordena de manera individual cada variable en el eje x o en y (para múltiples categorías se recomienda utilizar el eje y), agrupa de forma predeterminada las categorías con poca frecuencia para introcucirlas en el gráfico de pie como una sola (mejor visualización) y ordena de forma automática cada variable dependiendo de el tipo de su tipo de dato correspondiete: nominales (ordenados de mayor a menor según la frecuencia) y ordinales (ordinados de menor a mayor según la etiqueta).
+- `Funcionalidad avanzada`: Introduce múltiples variables de tu DataFrame dentro de la función. Cada variable obtendrá dos gráficos (sin ponderar y ponderado). La función múltiple coloca de manera individual cada variable en el eje x o en y (para múltiples categorías se recomienda utilizar el eje y), agrupa de forma predeterminada las categorías con poca frecuencia para introcucirlas en el gráfico de pie como una sola (mejor visualización) y ordena de forma automática cada variable dependiendo del tipo de su tipo de dato correspondiente: nominales (ordenados de mayor a menor según su frecuencia) y ordinales (ordenados de menor a mayor según su etiqueta).
 
 ```Python
 complot(ejemplo,['Rango de edad', 'Familiares vinculados', 'Motivo de estancia'], 
@@ -65,7 +65,7 @@ complot(ejemplo,['Rango de edad', 'Familiares vinculados', 'Motivo de estancia']
 <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhv2GqEDyPra1N9ie-1sk02k_zzvaaJSClkle7KROYroJ9OzVTqyTIIVijAHsd7NO9aLCMFHSu0HCgV5LIU80Y09ycrYELwM0hoJ0eaF6mI5onRUeQmlW9aUhyLK-sZJYXw43XfZUNVEZW4t0yuWes2ycC99yI47SL6hYQ7CGYdgRxlGqC8L6UrvZhB/s16000/complot_m.png">
 </p>
 
-> 📝 **Note:** <br>1. El orden de los datos en el gráfico no ponderado varia dependiendo del tipo de categoría.<br>2. El gráfico ponderado de "Familiares vinculados" se encuentra agrupado por default.</b>
+> 📝 **Note:** <br>1. Gráficos ordenados de manera independiente según el tipo de dato.<br>2. El gráfico ponderado de "Familiares vinculados" se encuentra agrupado (a partir de 5) por default.</b>
 
 
 - `Otras funcionalidades`: Exportar, guardar y personalizar la configuración interna de los gráficos (paleta de colores, tamaño de figuras, establecer o no segmentación automática, limite de variables a introducir en el eje x, entre otros).
@@ -80,7 +80,7 @@ complot(ejemplo,['Rango de edad', 'Familiares vinculados', 'Motivo de estancia']
 <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNOg4xc4uw9Dg2Xzrd7HprTMNVBZe0JLdnpnIm2GQnkQI5qIZODek15uOatWibTXM-ybGUeih3jrKM8DWgLUoljekvxT7PpDDpxggVM7lW_-jb2PGZrylEiASUA7HFXvOUJds2XeHvbP2kYmpqSCQYiJKLLhGwz4L-ckcaYwMIWY2oqzoCDqkdSWGJ/s16000/complot_mp.png">
 </p>
 
-> 📝 **Note:** Entre las nuevas funcionalidades que se están desarrollando, se incluye en una de ellas otorgar libertar absoluta al usuario para configurar cada gráfico de manera individual bajo los mismos atributos que se emplearían en las librerías principales (seaborn y matplotlib).</b>
+> 📝 **Note:** Entre las nuevas funcionalidades que se están desarrollando, se incluye un argumento que otorgue libertar absoluta al usuario para configurar cada gráfico de manera individual bajo los mismos atributos que se emplearían en las librerías originales (seaborn y matplotlib).</b>
 
 
 * * *
