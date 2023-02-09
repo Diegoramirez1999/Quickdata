@@ -122,5 +122,5 @@ complot(ejemplo,['Rango de edad', 'Familiares vinculados', 'Motivo de estancia']
 ## Autor 👽
 
 <div>
-<img align="left" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjANRbZT3ZF8ZiyJ_3GYhrUeK57eRh0x5xmL4i0kpaWUBqMNlIRAXmqRc4-G6lYlBqEWEv8krzF95NPW_ynyuOe7zkYGf1f7T3ziq50QZASD1hkm15MKmLLp67ot5h7i5eGZOHGaZSqb92S1e7u97U-v3mtZXiBCe63sGjKtLCK1lfsagaUuhzxZbpB/s16000/firma_digital.png" width="800">
+<img align="left" src=https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFRlpzGSckk2PczDA4QMbPcd4o77r5XNhP4U9SXPwK--1YR_ZW0FCnSfB_XylLwD_Lhrgpo9MdIDZ9EDyGXvlIeS_K2Z4vid_tOSep5JVubofcAVAzggzCi1MlZThxM0FMIuE826Up_gEQq8Prf6F98vnZwais4VRXxeYOJWkr8MK9U9iY0aS8bTQS/s16000/Firma%20digital%20Diego%20Ramirez%20(7).png" width="800">
 </div>
